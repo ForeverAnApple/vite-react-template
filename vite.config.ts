@@ -18,8 +18,13 @@ export default defineConfig({
     },
   },
   server: {
-    host: '0.0.0.0',        // Listen on all interfaces
-    allowedHosts: true,     // Allow all hosts (for E2B proxy)
+    host: '0.0.0.0',
+    allowedHosts: true,
+    port: process.env.PORT ? parseInt(process.env.PORT) : 3000,
+  },
+  preview: {
+    host: '0.0.0.0',
+    allowedHosts: true,
     port: process.env.PORT ? parseInt(process.env.PORT) : 3000,
   },
 });
