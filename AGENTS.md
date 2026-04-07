@@ -1,6 +1,6 @@
-# Surgent Web Template
+# Last Web Template
 
-React template for Surgent AI App Builder.
+React template for Last AI App Builder.
 
 ## Stack
 

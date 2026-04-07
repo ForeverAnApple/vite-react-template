@@ -5,5 +5,5 @@
     "lint": "bun run lint",
     "dev:convex": "bunx convex codegen && bunx tsc -p convex --noEmit && bunx convex dev --once --typecheck=disable"
   },
-  "name": "surgent-web-server"
+  "name": "last-web-server"
 }
