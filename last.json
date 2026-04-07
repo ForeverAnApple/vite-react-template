@@ -2,6 +2,7 @@
   "scripts": {
     "init": "bun install && bun run build",
     "dev": "bun run preview",
+    "build": "bun run build",
     "lint": "bun run lint",
     "dev:convex": "bunx convex codegen && bunx tsc -p convex --noEmit && bunx convex dev --once --typecheck=disable"
   },
